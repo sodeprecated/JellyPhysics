@@ -92,3 +92,14 @@ function windowResized(){
     Gish.position.y = rposy*height;
 }
 
+
+setTimeout(function(){
+    let cur = 0.4;
+    let a = setInterval(function(){
+        cur-=0.005;
+        if(cur <= 0){
+            clearInterval(a);
+        }
+        document.querySelector('img').style.opacity = cur;
+    },20);
+},4000);
