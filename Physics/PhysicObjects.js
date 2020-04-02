@@ -84,14 +84,14 @@ class JellyObject{
          * Constants
          */
         this.MAX_SPEED = 80;
-        this.KS = 14000;
+        this.KS = 10000;
         this.KD = 1;
         this.FAPP = 10;
         this.NDF = 0.02;
         this.pressure = 300000;
 
 
-        this.Mass = 12;
+        this.Mass = 10;
         this.position = _position;
         this.size = _size;
         this.mesh = _mesh;
