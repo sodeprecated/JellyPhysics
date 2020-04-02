@@ -77,12 +77,11 @@ function draw(){
 
     
     for(let i = 0; i < 3; ++i)
-    Gish.idle();
+        Gish.idle();
 
-    console.log(accX,accY);
     Gish.render();
 
-    //console.log(a);
+
 }
 
 function windowResized(){
