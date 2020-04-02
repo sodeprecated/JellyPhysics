@@ -5,7 +5,7 @@ let width = 1500,height = 800;
 window.addEventListener('devicemotion', function(e) 
 {
   // get accelerometer values
-  accX = parseInt(e.accelerationIncludingGravity.x);
+  accX = -parseInt(e.accelerationIncludingGravity.x);
   accY = parseInt(e.accelerationIncludingGravity.y);
   accZ = parseInt(e.accelerationIncludingGravity.z); 
 });

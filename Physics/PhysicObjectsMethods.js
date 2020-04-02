@@ -44,15 +44,15 @@ JellyObject.prototype.accumulateForces = function(){
     for (let i = 0; i < this.numPoints; i++)
     {
         if(!accY)
-            this.points.fy[i] = 9.81*5*this.Mass;
+            this.points.fy[i] = 9.81*7*this.Mass;
         else{
-            this.points.fy[i] = accY*5*this.Mass;
+            this.points.fy[i] = accY*7*this.Mass;
         }
 
         if(!accX)
             this.points.fx[i] = 0;
         else{
-            this.points.fx[i] = accX*5*this.Mass;
+            this.points.fx[i] = accX*7*this.Mass;
         }
     }
 
